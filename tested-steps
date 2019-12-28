@@ -1,0 +1,11 @@
+1, First you need a vpn server to connect, I tested and recommand https://www.vultr.com/?ref=8357225, to setup your first vpn server, and I strongly recommand you can test it with debain OS, I just mean I tested it with debain OS. For my objective is just setting up a vpn server to use without care its OS.
+
+2, After setting up your new instance in VULTR, you can connect to your server by ssh, then just run this 
+wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+
+3, After the script finished, in terminal it will show you all info you will need to connect to vpn server in screen, and make sure you don't miss it.
+
+4, Use your favourite vpn client and #3 provided cridentials to connect to your vpn server.
+
+5, Enjoy :)
+
